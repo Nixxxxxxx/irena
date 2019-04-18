@@ -1,7 +1,7 @@
-# ozluy
-Its a responsive blog website template for free for anyone interested.
+# irena
+Its a responsive blog website template.
 
-You can check demo on http://ozluy.github.io/projects/blog-template
+
 
 ####Techs
 - HMTL5
@@ -11,7 +11,7 @@ You can check demo on http://ozluy.github.io/projects/blog-template
 - Font Awesome
 - Pug(Jade) templating engine
 - SASS css processor
-- _saz_ Mixin Library (https://github.com/ozluy/saz)
+- _saz_ Mixin Library 
 - Gulp javascript task runner
 - Some JQuery plugins
 
