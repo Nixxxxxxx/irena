@@ -17,7 +17,7 @@ Its a responsive blog website template.
 
 ####install with npm
 ```console
-npm install ozluy-blog-template
+npm install irena-blog-template
 ```
 node modules install
 ````console
