@@ -1,0 +1,28 @@
+extends ./shared/layout.jade
+include ./shared/mixins.jade
+
+block title
+  title irena|| irena popova - about
+block content
+ div.home-banner
+   div
+     ul.bxslider-subpages
+       +slider_item('user','About Me','#298bc3')
+ section.section-about
+   div.container
+     h3.main-title Who I am
+     div.about-shell
+       div.profile-part
+         div.profile-img-shell
+           img(src='https://placeholdit.imgix.net/~text?txtsize=33&bg=1a354e&txt=Hello%20I%20am%20a%20profile%20picture%20&w=300&h=300', alt='My Profile Picture')
+         div.profile-detail-shell
+           h3 Irena Popova
+           +work_experience_item('Front-end Developer', 'March 2016 - present')
+           +work_experience_item('Full Stack Developer', 'September 2017 - March 2018')
+           h4.irena-icon-location Lives in Berlin, Germany
+           +study_item('Studied Computer Science at Software University,Sofia','Attended from 2016 to 2017')
+           +study_item('Linguistics at Neophit Rilski University','Attended from 1993 to 1998')
+       div.about-text
+         h1.about-text-head Lorem ipsum dolor sit amet,
+         -for (var x = 1; x <= 9; x++)
+           p Mea sint agam possit ea. Sea elitr reformidans te. Mea in dictas rationibus, mei ex postulant definiebas. Eu quodsi omittantur cum, accusam singulis theophrastus his an, et sit decore oporteat consequat. Mel ex sonet persius interpretaris, mei ad quot timeam postulant, vel an timeam consetetur.
